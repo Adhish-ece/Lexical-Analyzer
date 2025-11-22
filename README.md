@@ -24,20 +24,7 @@ gcc main.c utility.c
 2. Run the analyzer on it
 3. The program prints token type + lexeme line by line
 
-## 📂 Project Structure
 
-The repository is organized into a modular structure to separate the core logic (scanning, definitions) from the entry point and auxiliary files:
-
-```text
-Lexical-Analyzer/
-├── main.c              # ➡️ Entry point and main control flow.
-├── lexer.c             # ⚙️ Core Lexical Scanning Logic.
-├── token.c             # 📚 Token Definitions and Helper functions.
-|
-├── include/            # 🧩 Header files (.h) containing function prototypes and definitions.
-├── samples/            # 📝 Sample input C files and expected output for testing.
-└── README.md           # 📜 Project documentation.
-```
 ## Limitations
 - Supports only basic C tokens
 - No parsing or semantic analysis
